@@ -1,0 +1,10 @@
+{
+    "name": "trivial_example_001/trivial_php_bundle",
+    "description": "Trivial PHP bundle or package",
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"trivial_php_bundle\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
