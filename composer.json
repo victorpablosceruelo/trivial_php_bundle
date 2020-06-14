@@ -1,5 +1,6 @@
 {
     "name": "trivial_example_001/trivial_php_bundle",
+    "version": "1.0.1-snapshot",
     "description": "Trivial PHP bundle or package",
     "type": "library",
     "minimum-stability": "stable",
