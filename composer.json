@@ -7,5 +7,25 @@
     "autoload": {
         "psr-4": {"trivial_php_bundle\\HelloWorld\\": "src/"}
     },
-    "require": {}
+    "require": {},
+    "repositories": [
+		{
+                        "type" : "composer",
+                        "url" : "https://des-artefactos.scae.redsara.es/nexus/repository/composer-public/"
+                },
+                {
+                        "type" : "composer",
+                        "url" : "https://des-artefactos.scae.redsara.es/nexus/repository/composer-prueba/"
+                },
+                {
+                        "packagist.org": false
+                },
+                {
+                        "phpmyadmin.net": false
+                },
+                {
+                        "type" : "composer",
+                        "url" : "https://des-artefactos.scae.redsara.es/nexus/repository/trivial_example_001/"
+                }
+    ]
 }
